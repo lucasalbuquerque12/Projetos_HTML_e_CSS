@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/port-style.css">
+  <script src="js/script.js"></script>
+  <title>InteriorArt-Nosso Trabalho</title>
+</head>
+<body>
+  <header>
+    <a id="logo" href="#">InteriorArt</a>
+    <input type="checkbox" name="check" id="check">
+    <label id="label-menu" for="check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav id="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="nos.html">Sobre Nós</a></li>
+        <li><a href="port.html">Nosso Trabalho</a></li>
+        <li><a href="#cont">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="video">
+      <h2>Nos orgulhamos de fazer Seu Lugar Seu Estilo.</h2>
+      <p>Cada canto planejado e feito com o máximo de detalhes para inspirar e refletir sua personalidade.</p>
+      <video muted autoplay loop src="video/Home - 31290.mp4"></video>
+    </section>
+    <section id="imgs">
+      <h2>Um pouco de nosso trabalho</h2>
+      <img class="img img1" src="img/img1.jpg" alt="">
+      <img class="img img2" src="img/img2.jpg" alt="">
+      <img class="img img3" src="img/img3.jpg" alt="">
+      <img class="img img4" src="img/img4.jpg" alt="">
+      <img class="img img5" src="img/img5.jpg" alt="">
+      <img class="img img6" src="img/img6.jpg" alt="">
+      <img class="img img7" src="img/img7.jpg" alt="">
+      <img class="img img8" src="img/img8.jpg" alt="">
+      <img class="img img9" src="img/img9.jpg" alt="">
+      <img class="img img10" src="img/img10.jpg" alt="">  
+      <img class="img img12" src="img/img12.jpg" alt="">
+      <img class="img img13" src="img/img13.jpg" alt="">
+      <img class="img img14" src="img/img14.jpg" alt="">
+      <img class="img img15" src="img/img15.jpg" alt="">
+      <img class="img img16" src="img/img16.jpg" alt="">
+    </section>
+    <section id="cont">
+      <h3>Fale conosco</h3>
+      <div id="endereco">
+        <address class="add">
+          <p>Endereço:</p>
+          <p> Av. Larissa Cavalcante, N 145, Boa Vista.</p>
+        </address>
+        <address class="add">
+          <p>email:</p>
+          <a href="mailto:contato@interiorart.com">contato@interiorart.com</a>
+          <p>fone:</p>
+         <a href="telto:(77)91234-5678">(77)9.1234-5678</a>
+        </address>
+      </div>
+      <div id="redes">
+        <a href=""><img src="img/linkedin.png" alt="linkedin"></a>
+        <a href=""><img src="img/twitter.png" alt="twitter"></a>
+        <a href=""><img src="img/instagram.png" alt="instagram"></a>
+        <a href=""><img src="img/facebook.png" alt="facebook"></a>
+      </div>
+      <form name="form" id="form" action="">
+        <div class="col1">
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+        </div>
+        <div class="col2">
+          <label for="sonome">Sobrenome</label>
+          <input type="text" name="sonome" id="sonome"  placeholder="Seu Sobrenome" required>
+        </div>
+        <div class="col3">
+          <label for="email">Seu email</label>
+          <input type="text" name="email" id="email" placeholder="email@email.com" required>
+        </div>
+        <div class="col4">
+          <label for="mensagem">Menssagem</label>
+          <textarea type= "text" id="mensagem" placeholder="Envie sua mensagem" required></textarea>
+        </div>
+        <input type="submit" value="Enviar" onclick="validar()">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy;Ricardo Santos-2021</p>
+  </footer>
+</body>
+</html>

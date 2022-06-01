@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/nos-style.css">
+  <script src="js/script.js"></script>
+  <title>InteriorArt-Sobre Nós</title>
+</head>
+<body>
+  <header>
+    <a id="logo" href="#">InteriorArt</a>
+    <input type="checkbox" name="check" id="check">
+    <label id="label-menu" for="check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav id="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="nos.html">Sobre Nós</a></li>
+        <li><a href="port.html">Nosso Trabalho</a></li>
+        <li><a href="#cont">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="topo">
+      <div>
+        <h2>Espaços Personalizados</h2>
+        <h4>InteriorArt é uma equipe de profissionais que se esforça para criar um espaço que reflita sua personalidade e necessidades.</h4>
+      </div>
+    </section>
+    <section id="hist">
+      <div>
+        <p>Nossa História</p>
+        <h2>Cuidando como se fosse nosso.</h2>
+        <p>InteriorArt fundada por Helena e Carlos Miranda, começou como uma pequena marcenaria criando móveis planejados para residências e escritórios. Devido ao nosso atendimento e material de qualidade ficamos conhecidos não só em nossa cidade, mas também nas cidades vizinhas. Logo fechamos contratos com grandes empresas e passamos a trabalhar com construções arquitetônicas.</p>
+        <p>Hoje não só trabalhamos com Designer de Interior, nos tornamos uma das maiores construtoras do país, mas pensando sempre no cuidado como se cada imóvel fosse nosso.</p>
+      </div>
+    </section>
+      <section id="org">
+        <div id="con2">
+          <h2>Nossa Equipe</h2>
+          <p>Somos uma equipe de engenheiros, arquitetos e designers.</p>
+        </div>
+        <div id="eqp">
+          <div>
+            <img class="img pes1" src="img/pes1.jpg" alt="">
+            <h5>Helena M.</h5>
+            <p>Diretor Criativo</p>
+          </div>
+          <div>
+            <img class="img pes2" src="img/pes2.jpg" alt="">
+            <h5>Carlos M.</h5>
+            <p>Senior Designer</p>
+          </div>
+          <div>
+            <img class="img pes3" src="img/pes3.jpg" alt="">
+            <h5>Alice D.</h5>
+            <p>Senior Designer</p>
+          </div>
+          <div>
+            <img class="img pes4" src="img/pes4.jpg" alt="">
+            <h5>Pedro M.</h5>
+            <p>Arquiteto</p>
+          </div>
+          <div>
+            <img class="img pes5" src="img/pes5.jpg" alt="">
+            <h5>Julia H.</h5>
+            <p>Engenheira</p>
+          </div>
+          <div>
+            <img class="img pes6" src="img/pes6.jpg" alt="">
+            <h5>Renato S.</h5>
+            <p>Engenheiro</p>
+          </div>
+        </div>
+    </section>
+    <section id="cont">
+      <h3>Fale conosco</h3>
+      <div id="endereco">
+        <address class="add">
+          <p>Endereço:</p>
+          <p> Av. Larissa Cavalcante, N 145, Boa Vista.</p>
+        </address>
+        <address class="add">
+          <p>email:</p>
+          <a href="mailto:contato@interiorart.com">contato@interiorart.com</a>
+          <p>fone:</p>
+         <a href="telto:(77)91234-5678">(77)9.1234-5678</a>
+        </address>
+      </div>
+      <div id="redes">
+        <a href=""><img src="img/linkedin.png" alt="linkedin"></a>
+        <a href=""><img src="img/twitter.png" alt="twitter"></a>
+        <a href=""><img src="img/instagram.png" alt="instagram"></a>
+        <a href=""><img src="img/facebook.png" alt="facebook"></a>
+      </div>
+      <form name="form" id="form" action="">
+        <div class="col1">
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" placeholder="Seu nome" required>
+        </div>
+        <div class="col2">
+          <label for="sonome">Sobrenome</label>
+          <input type="text" name="sonome" id="sonome"  placeholder="Seu Sobrenome" required>
+        </div>
+        <div class="col3">
+          <label for="email">Seu email</label>
+          <input type="text" name="email" id="email" placeholder="email@email.com" required>
+        </div>
+        <div class="col4">
+          <label for="mensagem">Menssagem</label>
+          <textarea type= "text" id="mensagem" placeholder="Envie sua mensagem" required></textarea>
+        </div>
+        <input type="submit" value="Enviar" onclick="validar()">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy;Ricardo Santos-2021</p>
+  </footer>
+</body>
+</html>
