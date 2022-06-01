@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+img{
+  width: 100%;  
+}
+/*formatação das imagens dos celulares*/
+.instagram-main{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient( 45deg, #DD2A7B, #8134AF, #515Bd4, #F58529, #FEDA77 80%);
+}
+.instagram-fone{
+  display: flex;
+  position: relative;
+  max-width: 600px;
+}
+.celular-topo{
+  position: absolute;
+  left: 100px;
+}
+
+/*formatação das imagens área de login*/
+#logo{
+  max-width: 250px;
+}
+.login-face img{
+  max-width: 24px;
+}
+.figuras-app img{
+  max-width: 150px;
+}
+
+/*formatação da área de login*/
+.instagram-login{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.login-div{
+  border:1px solid rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0;
+  margin-bottom: 25px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.10);
+}
+.formulario-login{
+  display: flex;
+  flex-direction: column;
+}
+.input-login{
+  padding: 7px 10px;
+  width: 300px;
+  outline: none;
+  margin: 3px 35px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.input-login::placeholder{
+  color: rgba(0, 0, 0, 0.65);
+}
+#input-button{
+  margin: 15px 35px;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #006add;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.login-div a{
+  color: #006add;
+}
+.login-face{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.login-face a{
+  color: #006add;
+  font-size: 18px;
+}
+.buttom-app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttom-app img{
+  padding: 10px 5px;
+}
